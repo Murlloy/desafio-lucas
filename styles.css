@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+    align-items: center;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header button {
+    background-color: #28887A;
+    width: 128px;
+    height: 52px;
+    color: white;
+    border: none;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.line-up {
+    width: 1px;
+    height: 114px;
+    background-color: black;
+}
+
+main section {
+    background-color: #FFD476;
+    height: 100%;
+    width: 70%;
+    border-radius: 0px 50% 0px 0px;
+    display: flex;
+    padding: 80px 60px;
+    gap: 70px;
+}
+
+.modern {
+    padding: 56px 0px;
+    z-index: 1;
+}
+
+.modern h1 {
+    font-size: 102px;
+    width: 733px;
+}
+
+.direita {
+    width: 780px;
+    background-color: #E0E3E1;
+    height: 600px;
+    border-radius: 0px 0px 0px 50%;
+    position: absolute;
+    right: 0;
+}
+
+.direita2 {
+    width: 780px;
+    background-color: #e0e3e100;
+    height: 600px;
+    border-radius: 0px 0px 0px 50%;
+    position: absolute;
+    margin-top: 5%;
+    right: 3%;
+    z-index: 0;
+    border: 1px solid black;
+}
+
+.banner-main {
+    display: none;
+}
+
+main button {
+    background-color: #28887A;
+    width: 174px;
+    height: 52px;
+    position: absolute;
+    bottom: 20%;
+    z-index: 2;
+    right: 58%;
+    border: none;
+    color: white;
+}
+
+.dream {
+    height: 50vh;
+    padding: 0px 130px;
+}
+
+.dream article {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #03060550;
+    border-top: none;
+    border-bottom: none;
+}
+
+.caixa {
+    background-color: #E0E3E1;
+    width: 270px;
+    border-radius: 0px 0px 150px 150px;
+    height: 418px;
+}
+
+.primeira {
+    height: 270px;
+}
+
+.main {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 9.7%;
+    height: 200px;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.dream article p {
+    display: flex;
+    flex-direction: column;
+    width: 188px;
+    font-size: 24px;
+    margin-top: 84px;
+}
+
+.dream article p strong {
+    font-size: 94px;
+    font-weight: bold;
+}
+
+.dream footer {
+    border: 1px solid #03060550;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.dream-space div {
+    display: none;
+}
